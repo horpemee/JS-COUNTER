@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: rgba(0, 0, 0, 0.877); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    
+} 
+.mainContainer{
+    border-color: black; 
+    background-image: url(Background.jpg); 
+    margin: 8rem auto;
+    padding: 4rem;
+    
+}
+.subContainer{
+     justify-content: center;
+     padding: 4rem;
+     box-shadow: 0 0 0 3px white;     
+         
+     border-radius: 2px;       
+     
+}
+#counter{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 46px
+
+}
+ 
+#number{
+    color: green;
+    text-align: center;
+    font-size: 7rem;
+    line-height: 2rem;
+}
+.buttonTag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#lowerCount{
+    background-color: navy;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px; 
+    padding: 1rem;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+#addCount{
+    background-color: navy;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 8px;
+}
